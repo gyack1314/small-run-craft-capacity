@@ -1,0 +1,2 @@
+{"row_id":"scenario_requests:000001","scenario":"S1","state_revision":1,"candidate_orders":["O5"],"allow_split":true,"overtime_max_minutes":120,"allowed_substitutes":["M1-alt"]}
+{"row_id":"scenario_requests:000002","scenario":"S2","state_revision":1,"candidate_orders":["O6"],"allow_split":true,"overtime_max_minutes":120,"allowed_substitutes":[]}

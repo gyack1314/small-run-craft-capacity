@@ -1,0 +1,130 @@
+{
+  "schema_version": 2,
+  "synthetic": true,
+  "project": "柔性工坊的共享批次交期与报价方案分析",
+  "tables": [
+    {
+      "file": "fixtures/orders.jsonl",
+      "rows": 7,
+      "sha256": "bc86aa432784db98d46a0ad92a49cfaf3d963d0f70b02b0198835911d4801b7f",
+      "columns": [
+        "color",
+        "due_minute",
+        "material",
+        "order_id",
+        "priority",
+        "process_version",
+        "quantity",
+        "row_id",
+        "sample_approved",
+        "sample_version"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/routes.jsonl",
+      "rows": 5,
+      "sha256": "88bbe78ed1fb699a9aeb6d973d572d30fcbf1f0d028247d10c3413f5e22245e5",
+      "columns": [
+        "capacity",
+        "duration_per_item_min",
+        "duration_setup_min",
+        "non_interruptible",
+        "predecessors",
+        "process_version",
+        "row_id",
+        "skill",
+        "station",
+        "step"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/resources.jsonl",
+      "rows": 4,
+      "sha256": "4ff42ca5f5ad07f2036e261498a27c7fff0edbfd10ffa1fe21a8fdde2186e7cf",
+      "columns": [
+        "capacity",
+        "intervals",
+        "resource_id",
+        "row_id",
+        "skill"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/materials.jsonl",
+      "rows": 4,
+      "sha256": "ed3958d318e4e13da537e0775efb038181ed92baf3d5a82792bddacb026dab02",
+      "columns": [
+        "available_minute",
+        "material",
+        "quantity",
+        "revision",
+        "row_id",
+        "unit_cost_minor"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/actuals.jsonl",
+      "rows": 2,
+      "sha256": "fd85605a1f45c07d1bd1e4bff760a4f437867f618a62e06b137a8cfbff5ca6b6",
+      "columns": [
+        "actual_id",
+        "end_minute",
+        "order_id",
+        "quality",
+        "quantity",
+        "return_step",
+        "row_id",
+        "start_minute",
+        "step"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/scenario_requests.jsonl",
+      "rows": 2,
+      "sha256": "c13ff53041038c9733e242d30b2260252d57d0803eebb00c752b9e16608ca525",
+      "columns": [
+        "allow_split",
+        "allowed_substitutes",
+        "candidate_orders",
+        "overtime_max_minutes",
+        "row_id",
+        "scenario",
+        "state_revision"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/substitution_approvals.jsonl",
+      "rows": 1,
+      "sha256": "e5450828c599f9cbd45d55a0d48dc87974b3cfbb4cd17f78fc8edb8e3b664a2a",
+      "columns": [
+        "colors",
+        "effective_minute",
+        "material",
+        "process_version",
+        "row_id"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    }
+  ],
+  "scope": "本地合成的原始来源观察、业务政策与操作请求。"
+}

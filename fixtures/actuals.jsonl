@@ -1,0 +1,2 @@
+{"row_id":"actuals:000001","actual_id":"AC1","order_id":"O0","step":"dye","quantity":4,"start_minute":0,"end_minute":50,"quality":"pass"}
+{"row_id":"actuals:000002","actual_id":"AC2","order_id":"O1","step":"dye","quantity":3,"start_minute":50,"end_minute":95,"quality":"rework","return_step":"dye"}

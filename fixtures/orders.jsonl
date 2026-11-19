@@ -1,0 +1,7 @@
+{"row_id":"orders:000001","order_id":"O0","process_version":"silk-v3","quantity":8,"due_minute":900,"sample_version":2,"sample_approved":true,"material":"M1","color":"blue","priority":"confirmed"}
+{"row_id":"orders:000002","order_id":"O1","process_version":"silk-v3","quantity":10,"due_minute":990,"sample_version":2,"sample_approved":true,"material":"M1","color":"red","priority":"confirmed"}
+{"row_id":"orders:000003","order_id":"O2","process_version":"silk-v3","quantity":12,"due_minute":1080,"sample_version":2,"sample_approved":true,"material":"M1","color":"blue","priority":"confirmed"}
+{"row_id":"orders:000004","order_id":"O3","process_version":"silk-v3","quantity":14,"due_minute":1170,"sample_version":2,"sample_approved":true,"material":"M1","color":"red","priority":"confirmed"}
+{"row_id":"orders:000005","order_id":"O4","process_version":"carve-v1","quantity":16,"due_minute":1260,"sample_version":2,"sample_approved":true,"material":"M2","color":"blue","priority":"confirmed"}
+{"row_id":"orders:000006","order_id":"O5","process_version":"carve-v1","quantity":18,"due_minute":1350,"sample_version":2,"sample_approved":false,"material":"M2","color":"red","priority":"candidate"}
+{"row_id":"orders:000007","order_id":"O6","process_version":"carve-v1","quantity":20,"due_minute":1440,"sample_version":2,"sample_approved":true,"material":"M2","color":"blue","priority":"candidate"}

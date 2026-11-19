@@ -1,0 +1,5 @@
+{"row_id":"routes:000001","process_version":"silk-v3","step":"dye","predecessors":[],"duration_setup_min":30,"duration_per_item_min":5,"station":"dye-tank","skill":"dye","capacity":30,"non_interruptible":true}
+{"row_id":"routes:000002","process_version":"silk-v3","step":"sew","predecessors":["dye"],"duration_setup_min":15,"duration_per_item_min":8,"station":"sewing","skill":"sew","capacity":1,"non_interruptible":true}
+{"row_id":"routes:000003","process_version":"silk-v3","step":"pack","predecessors":["sew"],"duration_setup_min":5,"duration_per_item_min":2,"station":"packing","skill":"pack","capacity":10,"non_interruptible":true}
+{"row_id":"routes:000004","process_version":"carve-v1","step":"carve","predecessors":[],"duration_setup_min":15,"duration_per_item_min":12,"station":"carving","skill":"carve","capacity":1,"non_interruptible":true}
+{"row_id":"routes:000005","process_version":"carve-v1","step":"pack","predecessors":["carve"],"duration_setup_min":5,"duration_per_item_min":2,"station":"packing","skill":"pack","capacity":10,"non_interruptible":true}

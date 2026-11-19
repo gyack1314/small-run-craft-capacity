@@ -1,0 +1,4 @@
+{"row_id":"materials:000001","material":"M1","quantity":120,"available_minute":0,"unit_cost_minor":300,"revision":1}
+{"row_id":"materials:000002","material":"M1","quantity":120,"available_minute":600,"unit_cost_minor":300,"revision":2}
+{"row_id":"materials:000003","material":"M2","quantity":60,"available_minute":0,"unit_cost_minor":600,"revision":1}
+{"row_id":"materials:000004","material":"M1-alt","quantity":40,"available_minute":0,"unit_cost_minor":450,"revision":1}

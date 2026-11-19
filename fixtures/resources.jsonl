@@ -1,0 +1,4 @@
+{"row_id":"resources:000001","resource_id":"dye-tank","skill":"dye","capacity":1,"intervals":[[0,480],[540,1020],[1080,1560]]}
+{"row_id":"resources:000002","resource_id":"sewing","skill":"sew","capacity":2,"intervals":[[0,480],[540,1020],[1080,1560]]}
+{"row_id":"resources:000003","resource_id":"packing","skill":"pack","capacity":1,"intervals":[[0,480],[540,1020],[1080,1560]]}
+{"row_id":"resources:000004","resource_id":"carving","skill":"carve","capacity":1,"intervals":[[0,480],[540,1020],[1080,1560]]}
