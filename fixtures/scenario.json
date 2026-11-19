@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "business": "small-run-craft-capacity",
+  "synthetic": true,
+  "entities": [
+    "order-a",
+    "order-b",
+    "order-c",
+    "sample-a-v2",
+    "dye-batch-1",
+    "station-sew",
+    "station-pack"
+  ],
+  "event_types": [
+    "order-created",
+    "sample-approved",
+    "quantity-changed",
+    "material-revised",
+    "batch-split",
+    "quality-failed",
+    "rework-opened",
+    "rush-order-added"
+  ],
+  "records": [
+    {
+      "event_id": "p01",
+      "type": "order-created",
+      "order": "order-a",
+      "process": "dye-v3",
+      "qty": 20,
+      "due": "2026-11-24"
+    },
+    {
+      "event_id": "p02",
+      "type": "sample-approved",
+      "order": "order-a",
+      "sample": "sample-a-v2",
+      "qty_delta": 8
+    },
+    {
+      "event_id": "p03",
+      "type": "material-revised",
+      "material": "indigo-batch-4",
+      "old_eta": "2026-11-19",
+      "new_eta": "2026-11-21"
+    },
+    {
+      "event_id": "p04",
+      "type": "quality-failed",
+      "lot": "dye-batch-1",
+      "failed_qty": 3,
+      "station": "station-sew"
+    },
+    {
+      "event_id": "p05",
+      "type": "rework-opened",
+      "lot": "dye-batch-1",
+      "qty": 3,
+      "returns_to": "dye-v3"
+    },
+    {
+      "event_id": "p06",
+      "type": "rush-order-added",
+      "order": "order-c",
+      "qty": 6,
+      "promise_hours": 48
+    }
+  ],
+  "facts": {
+    "work_centers": 4,
+    "shifts": 3,
+    "lead_promises_hours": [
+      24,
+      48
+    ]
+  }
+}
