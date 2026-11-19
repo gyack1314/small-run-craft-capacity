@@ -67,11 +67,10 @@
     }
   ],
   "facts": {
-    "work_centers": 4,
-    "shifts": 3,
     "lead_promises_hours": [
       24,
       48
     ]
-  }
+  },
+  "observed_record_count": 6
 }
